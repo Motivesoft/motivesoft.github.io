@@ -62,6 +62,19 @@ main {
   padding-right: 10px;
 }
 
+#suggestions {
+  margin-top: 5px;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#suggestions a {
+  color: #666666;
+  font-size: 14px;
+  margin: 0px;
+}
+
 footer {
   padding: 20px 20px;
   background-color: black;

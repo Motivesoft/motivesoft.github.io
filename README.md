@@ -1,2 +1,2 @@
 # motivesoft.github.io
-Motivesoft github homepage
+The Motivesoft GitHub organization site
