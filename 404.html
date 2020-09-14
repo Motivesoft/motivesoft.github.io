@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name='description' content='GitHub site page for the Motivesoft organization, its projects and repositories'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivesoft</title>
+</head>
+<body>
+    <header>
+        <div class="companyheader">
+            <a id="logo" href="./index.html"></a>
+            <script>
+                size = 96;
+                h = size;
+                w = size;
+                r=Math.min(w, h) / 2;
+                r2=r/2;
+                cy = h/2;
+                cx = w/2;
+                text = "<g><title>Layer 1</title><circle id='svg_1' r='"+r+"' fill='#DAA520' cy='"+cy+"' cx='"+cx+"'/></g><g><title>Layer 2</title><circle id='svg_2' r='"+r2+"' fill='#800000' cy='"+(h-r2)+"' cx='"+(w-r2)+"'/></g>";
+                text = "<svg width='"+w+"' height='"+h+"'http://www.w3.org/2000/svg' xmlns='' xmlns:svg='http://www.w3.org/2000/svg'>"+text+"</svg>";
+                document.getElementById("logo").innerHTML = text;
+            </script>
+            <ul>
+                <li>Motivesoft</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <p style="text-align: center;">The page you are looking for does not exist.</p>
+        <p style="text-align: center;">Please go to the <a href="./index.html">Motivesoft GitHub Pages</a> home page.</p>
+    </main>
+
+    <div id="suggestions">
+        <a href="https://githubstatus.com">GitHub Status</a> &mdash;
+        <a href="https://twitter.com/githubstatus">@githubstatus</a>
+    </div>
+
+    <footer style="display: grid; vertical-align: middle; grid-template-columns: auto 50px;">
+        <a id="footer" style="padding-top: 5px">
+            <noscript>Copyright &copy; 2020 Ian Brown.</noscript>
+        </a>
+        <script>
+            originYear = "2020";
+            d = new Date();
+            y = d.getFullYear();
+            if( y != originYear )
+            { 
+                y = originYear.concat("-").concat(y); 
+            }
+            document.getElementById("footer").innerHTML = "Copyright &copy; " + y + " Ian Brown";
+        </script>
+        <a class="button" href="mailto:enquiries@motivesoft.co.uk"><img src="./email-white.png" alt="email enquiries@motivesoft.co.uk" title="email enquiries@motivesoft.co.uk" height="30px" width="30px"/></a>
+    </footer>
+    
+</body>
+</html>
