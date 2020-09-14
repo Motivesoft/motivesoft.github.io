@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name='description' content='Github site page for the Motivesoft organization, its projects and repositories'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivesoft</title>
+</head>
+<body>
+    <header>
+        <div class="companyheader">
+            <a id="logo"></a>
+            <script>
+                size = 96;
+                h = size;
+                w = size;
+                r=Math.min(w, h) / 2;
+                r2=r/2;
+                cy = h/2;
+                cx = w/2;
+                text = "<g><title>Layer 1</title><circle id='svg_1' r='"+r+"' fill='#DAA520' cy='"+cy+"' cx='"+cx+"'/></g><g><title>Layer 2</title><circle id='svg_2' r='"+r2+"' fill='#800000' cy='"+(h-r2)+"' cx='"+(w-r2)+"'/></g>";
+                text = "<svg width='"+w+"' height='"+h+"'http://www.w3.org/2000/svg' xmlns='' xmlns:svg='http://www.w3.org/2000/svg'>"+text+"</svg>";
+                document.getElementById("logo").innerHTML = text;
+            </script>
+            <ul>
+                <li>Motivesoft</li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1>Projects</h1>
+        <p>This is the Github organization for <a href="https://github.com/Motivesoft">Motivesoft</a>, 
+            started and run by me, <a href="https://github.com/ianabrown">Ian Brown</a>, as a little hobby project and a place to 
+            store some of my recent projects and the websites that I have created to support my wife'
+            digital art.</p>
+        <h2>Websites</h2>
+        <div class="projects">
+            <div class="project">
+                <h3 class="project-name">Motivesoft Github page</h3>
+                <p class="project-desc">This is the Motivesoft Github organization site, the page we are currently looking at.</p>
+                <div class="project-links">
+                    <p>Visit: <a href="https://github.com/Motivesoft/motivesoft.github.io">project page</a>, <a href="https://motivesoft.github.io">website</a></p>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="project-name">Motivesoft.co.uk home page</h3>
+                <p class="project-desc">This project holds the public Motivesoft website code and contained projects. The site also contains some projects requiring backend web services, which this Github site page doesn't offer</p>
+                <div class="project-links">
+                    <p>Visit: <a href="https://github.com/Motivesoft/motivesoft.co.uk">project site</a>, <a href="https://motivesoft.co.uk">website</a></p>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="project-name">Zen Doodles By Catherine</h3>
+                <p class="project-desc">The zen doodles website offers free downloads of zen doodle, mandala and other designs as PDF and PNG. Print or save the images and colour them in.</p>
+                <div class="project-links">
+                    <p>Visit: <a href="https://github.com/Motivesoft/zendoodlesbycatherine">project site</a>, <a href="https://zendoodlesbycatherine.com">website</a></p>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="project-name">Condaluna</h3>
+                <p class="project-desc">The @condaluna website offers free collection of stickers, GIF, wallpapers and fonts to download or use in Instagram, Facebook, Twitter stories.</p>
+                <div class="project-links">
+                    <p>Visit: <a href="https://github.com/Motivesoft/condaluna">project site</a>, <a href="https://condaluna.com">website</a></p>
+                </div>
+            </div>
+            <div class="project">
+                <h3 class="project-name">Cyberzoo</h3>
+                <p class="project-desc">This website is a tribute for virtual pets containing lots of information about Tamagotchis, Nano Babies etc. original created in the late 90s.</p>
+                <div class="project-links">
+                    <p>Visit: <a href="https://github.com/Motivesoft/cyberzoo">project page</a>, <a href="https://motivesoft.github.io/cyberzoo">website</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer style="display: grid; vertical-align: middle; grid-template-columns: auto 50px;">
+        <a id="footer" style="padding-top: 5px">
+            <noscript>Copyright &copy; 2020 Ian Brown.</noscript>
+        </a>
+        <script>
+            originYear = "2020";
+            d = new Date();
+            y = d.getFullYear();
+            if( y != originYear )
+            { 
+                y = originYear.concat("-").concat(y); 
+            }
+            document.getElementById("footer").innerHTML = "Copyright &copy; " + y + " Ian Brown";
+        </script>
+        <a class="button" href="mailto:enquiries@motivesoft.co.uk"><img src="./email-white.png" alt="email enquiries@motivesoft.co.uk" title="email enquiries@motivesoft.co.uk" height="30px" width="30px"/></a>
+    </footer>
+    
+</body>
+</html>
