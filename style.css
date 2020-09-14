@@ -47,6 +47,11 @@ main {
   text-align: center;
 }
 
+.project:hover {
+  box-shadow: 10px 10px 30px #888888;
+  background-color: #dddddd;
+}
+
 .project-name {
   font-style: italic;
 }
