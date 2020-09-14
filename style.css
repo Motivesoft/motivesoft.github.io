@@ -37,6 +37,10 @@ body {
   text-transform: lowercase;
 }
 
+h2{
+  padding-top: 20px;
+}
+
 main {
   clear: both;
   padding: 20px;
