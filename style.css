@@ -54,7 +54,8 @@ main {
 .project:hover,
 .project:focus  {
   box-shadow: 10px 10px 30px #888888;
-  background-color: #dddddd;
+  background-color: #eeeeee;
+  transform: scaleX(1.01) scaleY(1.01);
 }
 
 .project-name {
@@ -67,9 +68,23 @@ main {
 
 .project-links p {
   padding-top: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.project-links a {
+  padding: 5px 10px;
+  margin: 5px 10px;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+.project-links a:hover,
+.project-links a:focus {
+  background-color: #666666;
 }
 
 #suggestions {
